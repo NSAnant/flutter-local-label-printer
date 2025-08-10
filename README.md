@@ -72,10 +72,14 @@ It supports **TSC label printers** and allows users to design and print labels w
 
 ## 🔗 Useful Links
 
-- [Flutter Official Docs](https://docs.flutter.dev/)
 - [TSC TSPL Command Reference](https://medium.com/@zahidtekbas/using-tspl-commands-in-flutter-137ed8b8265f)
 - [Using TSPL Commands in Flutter by Zahid Tekbaş](https://medium.com/@zahidtekbas/using-tspl-commands-in-flutter-137ed8b8265f)
+- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
+For help getting started with Flutter development, view the
+[online documentation](https://docs.flutter.dev/), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
 --
 
 ## 📄 License

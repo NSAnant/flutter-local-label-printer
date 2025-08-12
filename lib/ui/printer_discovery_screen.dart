@@ -3,6 +3,7 @@
 import 'dart:async';
 import 'dart:io';
 import 'package:flutter/material.dart';
+import 'package:permission_handler/permission_handler.dart';
 import 'package:printapp/models/printer_model.dart';
 import '../database/db_helper.dart';
 
@@ -26,6 +27,11 @@ class _PrinterDiscoveryScreenState extends State<PrinterDiscoveryScreen> {
   void initState() {
     super.initState();
     getSavedPrinters();
+    requestPermissions();
+  }
+
+  Future<void> requestPermissions() async {
+    await [Permission.location, Permission.locationWhenInUse].request();
   }
 
   Future<void> discoverPrinters() async {

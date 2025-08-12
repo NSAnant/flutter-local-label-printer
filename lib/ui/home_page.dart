@@ -30,7 +30,7 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   void initState() {
     super.initState();
-    //_loadSelections();
+    _loadSelections();
   }
 
   Future<void> _loadSelections() async {

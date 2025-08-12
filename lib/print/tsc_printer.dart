@@ -17,11 +17,11 @@ GAP 3 mm,0
 DIRECTION 0
 CLS
 TEXT 210,15,"1",0,2,1,1,"NCM"
-TEXT 5,10,"1",0,2,1,0,"${product.productId}"
-BLOCK 5,30,200,30,"2",0,1,1,"${product.name}"
-TEXT 5,80,"2",0,1,1,0,"Rs."
-BLOCK 50,80,200,30,"3",0,1,1,"${product.price}"
-TEXT 230,100,"1",0,1,1,0,"${product.unit}"
+TEXT 15,5,"2",0,1,1,0,"${product.productId}"
+BLOCK 5,25,200,30,"2",0,1,1,"${product.name}"
+TEXT 5,75,"2",0,1,1,0,"Rs."
+BLOCK 50,75,200,30,"3",0,1,1,"${product.price}"
+TEXT 230,95,"1",0,1,1,0,"${product.unit}"
 QRCODE 225,40,H,2,A,0,"${product.productId}"
 PRINT 1,$qty
 ''';
